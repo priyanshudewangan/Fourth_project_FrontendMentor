@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:antiquewhite;
+    font-family: 'Figtree', sans-serif;
+}
+
+article{
+
+    border-radius: 20px;
+    width: 700px;
+    min-height: 700px;
+    background-color: white;
+}
+
+img{
+    width: 641px;
+    height: auto;
+    margin-inline-start: 30px;
+    margin-block-start: 30px;
+    border-radius: 10px;
+}
+
+.text{
+    margin-inline-start: 28px;
+    color: black;
+}
+
+h1{
+    font-weight: 300;
+    font-family: 'Young Serif', serif;
+    font-size: 40px;
+    
+}
+
+.div1{
+    background-color: rgba(255, 200, 210, 0.596);
+    padding: 10px;
+    border-radius: 15px;
+    margin-inline-end: 28px;
+}
+
+#p1{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(201, 32, 122);
+}
+
+
+.li1{
+    margin-block-start: 10px;
+    margin-inline-start: 25px;
+    color: rgb(94, 92, 92);
+}
+.li2{
+    padding: 6px;
+    color: rgb(94, 92, 92);
+}
+
+.line{
+    width: 95%;
+    height: 3px;
+    background-color: rgba(128, 128, 128, 0.302);
+}
+ol li::marker {
+  color: #854632; 
+  font-weight: bold;
+}
+
+.li3{
+    margin-block-start: 19px;
+    color: rgb(94, 92, 92);
+}
+
+.p3{
+    color: rgb(94, 92, 92);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-family: 'Figtree', sans-serif;
+  color: #854632;
+  font-weight: 700;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 10px;
+}
